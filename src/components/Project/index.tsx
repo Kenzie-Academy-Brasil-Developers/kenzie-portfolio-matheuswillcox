@@ -10,8 +10,10 @@ import { Text } from "@/styles/Text";
 import { useEffect, useState } from "react";
 import { FaGithub, FaShare } from "react-icons/fa";
 import { userData } from "@/utils/userData";
+import { SiVercel } from "react-icons/si";
 
 interface ReposType {
+  html_url: string | undefined;
   id: number;
   name: string;
   language: string;
@@ -27,7 +29,7 @@ export const Project = (): JSX.Element => {
     const fetchData = async () => {
       const data: Response = await fetch(
         `https://api.github.com/users/${userData.githubUser}/repos`
-      )
+      );
 
       const json = await data.json();
 
@@ -44,6 +46,31 @@ export const Project = (): JSX.Element => {
 
   return (
     <>
+      <ProjectLinks>
+        <ProjectLink
+          style={{ display: "flex", flexDirection: "row", gap:"5px" }}
+          target="_blank"
+          href="https://vercel.com/matheuswillcox"
+        >
+          <SiVercel /> Meu Vercel
+          <div    style={{ display: "flex", flexDirection: "column", gap:"25px" }}>
+            {" "}
+            <a href="https://react-entrega-s3-kenzishop-com-context-api-matheuswi-bbkg9bwll.vercel.app/">
+              Kenzie Shop
+            </a>
+            <a href="https://capstone-m3-delta.vercel.app/login">
+             PokeApi
+            </a>
+            <a href="https://react-entrega-s2-kenzie-hub-matheuswillcox.vercel.app/">
+             Kenzie Hub
+            </a>
+            <a href="https://react-entrega-s1-hamburgueria-da-kenzie-matheuswillcox.vercel.app/">
+             Burguer Kenzie
+            </a>
+          </div>
+        </ProjectLink>
+      </ProjectLinks>
+
       {repositories?.map((repository) => (
         <ProjectWrapper key={repository.id}>
           <Text
@@ -70,7 +97,7 @@ export const Project = (): JSX.Element => {
             {repository.description}
           </Text>
           <ProjectLinks>
-            <ProjectLink target="_blank" href={repository.git_url}>
+            <ProjectLink target="_blank" href={repository.html_url}>
               <FaGithub /> Github Code
             </ProjectLink>
             {repository.homepage && (

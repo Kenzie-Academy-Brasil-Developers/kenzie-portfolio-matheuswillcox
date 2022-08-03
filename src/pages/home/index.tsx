@@ -24,7 +24,6 @@ import {
   ProjectAreaWrapperColumns,
 } from "./style";
 
-
 export const Home = (): JSX.Element => {
   return (
     <main>
@@ -35,13 +34,22 @@ export const Home = (): JSX.Element => {
               Criando experiências por meio da tecnologia{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
-              de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
+              Atualmente sou Desenvolvedor Front-end, possuo experiência com
+              HTML, CSS, Javascript e React.JS. 
+              Atuei na área de gestão de
+              empresas desde 2009, nesse período cursei e conclui um MBA em
+              Gestão Empresarial pela FGV. Tenho experiência em gestão de
+              pessoas, formação de equipes, desenvolvimento de líderes,
+              desenvolvimento de ERP, padronização de processos, desenvolvimento
+              de fornecedores, controle de CMV e todas as funções exercidas por
+              um empresário nas áreas de RH, comercial, administrativo
+              financeiro e marketing. Tenho formação na área de TI e estou
+              sempre me mantendo atualizado sobre as novidades do setor. Presto
+              também consultorias para restaurantes nas áreas citadas acima.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
-                Projetos
+                Meus Projetos
               </Button>
               <Button as="a" href="#tecnologias" type="btLink" color="grey5">
                 Tecnologias
