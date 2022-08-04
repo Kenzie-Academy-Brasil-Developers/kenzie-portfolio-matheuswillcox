@@ -48,24 +48,24 @@ export const Project = (): JSX.Element => {
     <>
       <ProjectLinks>
         <ProjectLink
-          style={{ display: "flex", flexDirection: "row", gap:"5px" }}
+          style={{ display: "flex", flexDirection: "column", gap: "15px" }}
           target="_blank"
           href="https://vercel.com/matheuswillcox"
         >
-          <SiVercel /> Meu Vercel
-          <div    style={{ display: "flex", flexDirection: "column", gap:"25px" }}>
+          <div className="c-iyXKPn c-iyXKPn-bZSQoK-type-heading3 c-iyXKPn-ImBLK-color-grey1 c-iyXKPn-ihAaffR-css">
+            <SiVercel /> Meu Vercel
+          </div>
+          <div style={{ display: "flex", flexDirection: "column", gap: "25px" }}>
             {" "}
-            <a href="https://react-entrega-s3-kenzishop-com-context-api-matheuswi-bbkg9bwll.vercel.app/">
-              Kenzie Shop
+            <a style={{ color:"black"}} href="https://react-entrega-s3-kenzishop-com-context-api-matheuswi-bbkg9bwll.vercel.app/">
+            Kenzie Shop
             </a>
-            <a href="https://capstone-m3-delta.vercel.app/login">
-             PokeApi
+            <a style={{ color:"black"}} href="https://capstone-m3-delta.vercel.app/login">PokeApi</a>
+            <a style={{ color:"black"}} href="https://react-entrega-s2-kenzie-hub-matheuswillcox.vercel.app/">
+              Kenzie Hub
             </a>
-            <a href="https://react-entrega-s2-kenzie-hub-matheuswillcox.vercel.app/">
-             Kenzie Hub
-            </a>
-            <a href="https://react-entrega-s1-hamburgueria-da-kenzie-matheuswillcox.vercel.app/">
-             Burguer Kenzie
+            <a style={{ color:"black"}} href="https://react-entrega-s1-hamburgueria-da-kenzie-matheuswillcox.vercel.app/">
+              Burguer Kenzie
             </a>
           </div>
         </ProjectLink>
