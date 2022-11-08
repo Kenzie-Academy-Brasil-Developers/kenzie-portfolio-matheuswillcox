@@ -57,6 +57,9 @@ export const Project = (): JSX.Element => {
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "25px" }}>
             {" "}
+            <a style={{ color:"black"}} href="https://www.dunasmotors.com.br/">
+            Dunas Motors
+            </a>
             <a style={{ color:"black"}} href="https://react-entrega-s3-kenzishop-com-context-api-matheuswi-bbkg9bwll.vercel.app/">
             Kenzie Shop
             </a>
