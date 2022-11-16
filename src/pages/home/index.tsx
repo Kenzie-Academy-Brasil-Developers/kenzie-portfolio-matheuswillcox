@@ -34,9 +34,9 @@ export const Home = (): JSX.Element => {
               Criando experiências por meio da tecnologia{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Atualmente sou Desenvolvedor Front-end, possuo experiência com
-              HTML, CSS, Javascript e React.JS. 
-              Atuei na área de gestão de
+              Sou Desenvolvedor Full-Stack, possuo experiência com HTML, CSS,
+              Javascript e React.JS. Tabém tenho experiência com TypeScript,
+              SQL, Node.js, Express, Docker e Phyton. Atuei na área de gestão de
               empresas desde 2009, nesse período cursei e conclui um MBA em
               Gestão Empresarial pela FGV. Tenho experiência em gestão de
               pessoas, formação de equipes, desenvolvimento de líderes,

@@ -60,6 +60,15 @@ export const Project = (): JSX.Element => {
             <a style={{ color:"black"}} href="https://www.dunasmotors.com.br/">
             Dunas Motors
             </a>
+            <a style={{ color:"black"}} href="https://github.com/Kenzie-Academy-Brasil-Developers/Klinica-API">
+            Klinica
+            </a>
+            {/* <a style={{ color:"black"}} href="https://github.com/Kenzie-Academy-Brasil-Developers/m5-entrega-komercio-generic-matheuswillcox">
+            Komercio
+            </a>
+            <a style={{ color:"black"}} href="https://github.com/Kenzie-Academy-Brasil-Developers/m5-sprint4-kmdb-template-matheuswillcox">
+            KMDB
+            </a> */}
             <a style={{ color:"black"}} href="https://react-entrega-s3-kenzishop-com-context-api-matheuswi-bbkg9bwll.vercel.app/">
             Kenzie Shop
             </a>
